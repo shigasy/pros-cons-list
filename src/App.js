@@ -1,24 +1,29 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>良い点、悪い点リスト</h1>
+      <div>
+        <h2>考えられる様々な選択肢について、</h2>
+      <table align="center">
+        <tbody>
+        <tr>
+          <th>良い点</th>
+          <th>悪い点</th>
+        </tr>
+        <tr>
+          <td>TD　　<span>★★★</span></td>
+          <td>TD　　<span>★★★</span></td>
+        </tr>
+        <tr>
+          <td>TD　　<span>★★★</span></td>
+          <td>TD　　<span>★★★</span></td>
+        </tr>
+        </tbody>
+      </table>
+      </div>
     </div>
   );
 }
