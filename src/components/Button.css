@@ -10,7 +10,7 @@ a {
     font-weight: bold;
     line-height: 1;
     text-decoration: none;
-    letter-spacing: 0.05em;/*字間*/
+    letter-spacing: 0.05rem;/*字間*/
     padding: 1rem 2.5rem;/*ボタン内の余白*/
     border-radius: 3px;/*角の丸み*/
     cursor: pointer;
