@@ -12,7 +12,6 @@ table td {
     padding: 0.4rem 1.0rem;
     width: 20rem;
 }
-
 .table__caption {
     margin: 0.5rem 0;
 }
@@ -22,14 +21,11 @@ table td {
     font-size: 1.8rem;
 }
 .table__header--pros {
-    /*color: #27ae60;*/
-    /*background: #01ad9f;*/
     background: #26a69b;
     color: white;
     font-size: 1.4rem;
 }
 .table__header--cons {
-    /*color: #2980b9;*/
     color: #f7f7f7;
     background: #ff7675;
     font-size: 1.4rem;
@@ -39,11 +35,54 @@ table td {
     font-size: 1.2rem;
 }
 
+.table__data--textarea-pros {
+    border: 2px solid #8a8a8a;  /* 枠線 */
+    border-radius: 0.5rem;   /* 角丸 */
+    padding: 0.9rem;          /* 内側の余白量 */
+    background-color: snow;  /* 背景色 */
+    width: 100%;             /* 横幅いっぱいにする */
+    box-sizing: border-box;  /* ※これがないと横にはみ出る */
+    height: 8rem;           /* 高さ */
+    margin: 0.5rem 0;
+    font-size: 1em;          /* 文字サイズ */
+    line-height: 1.2;        /* 行の高さ */
+    transition: .2s;
+}
+.table__data--textarea-pros:focus {
+    border: 0.2rem solid #26a69b;
+    border-radius: 0.5rem;   /* 角丸 */
+    outline: 0;
+}
+
+.table__data--textarea-cons {
+    border: 2px solid #8a8a8a;  /* 枠線 */
+    border-radius: 0.5rem;   /* 角丸 */
+    padding: 0.9rem;          /* 内側の余白量 */
+    background-color: snow;  /* 背景色 */
+    width: 100%;             /* 横幅いっぱいにする */
+    box-sizing: border-box;  /* ※これがないと横にはみ出る */
+    height: 8rem;           /* 高さ */
+    margin: 0.5rem 0;
+    font-size: 1em;          /* 文字サイズ */
+    line-height: 1.2;        /* 行の高さ */
+    transition: .2s;
+}
+.table__data--textarea-cons:focus {
+    border: 0.2rem solid #ff7675;
+    border-radius: 0.5rem;   /* 角丸 */
+    outline: 0;
+}
+
+
 .table__data--value {
     padding: 0.1rem 0.1rem;
     width: 10%;
 }
 
+.table__data--sum-value {
+    font-size: 1.6rem;
+    font-weight: 900;
+}
 /* -------------------------------------------- */
 /* ▼タブレット用デザインとして付け足すデザイン */
 /* -------------------------------------------- */
