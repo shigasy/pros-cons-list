@@ -2,6 +2,9 @@ import React from 'react';
 import './App.css';
 import './components/Table.css'
 import './components/Button.css'
+import './components/AddButton.css'
+
+import AddButton from './components/AddButton'
 
 function App() {
   return (
@@ -39,10 +42,18 @@ function App() {
               </tr>
               <tr>
                 <td colSpan="2">
-                  <button>＋</button>
+                  <AddButton cmpClassName="table__add-button--pros"/>
                 </td>
                 <td colSpan="2">
-                  <button>＋</button>
+                  <AddButton cmpClassName="table__add-button--cons"/>e
+                </td>
+              </tr>
+              <tr>
+                <td colSpan="2">
+                  <p><strong>2</strong></p>
+                </td>
+                <td colSpan="2">
+                  <p><strong>2</strong></p>
                 </td>
               </tr>
               </tbody>
@@ -74,6 +85,14 @@ function App() {
                 </td>
                 <td colSpan="2">
                   <button>＋</button>
+                </td>
+              </tr>
+              <tr>
+                <td colSpan="2">
+                  <p>2</p>
+                </td>
+                <td colSpan="2">
+                  <p>2</p>
                 </td>
               </tr>
               </tbody>

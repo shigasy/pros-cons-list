@@ -1,0 +1,32 @@
+.table__add-button--pros {
+    border: solid 0.15rem #26a69b;
+    border-radius: 0.3rem;
+    color: #26a69b;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1.4rem;
+    padding: 0.05rem 4rem;
+    text-decoration: none;
+    transition: .4s;
+}
+
+.table__add-button--pros:hover {
+    background: #26a69b;
+    color: white;
+}
+
+.table__add-button--cons {
+    border: solid 0.15rem #ff7675;
+    border-radius: 0.3rem;
+    color: #ff7675;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1.4rem;
+    padding: 0.05rem 4rem;
+    text-decoration: none;
+    transition: .4s;
+}
+.table__add-button--cons:hover {
+    background: #ff7675;
+    color: white;
+}
