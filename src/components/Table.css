@@ -1,3 +1,9 @@
+table {
+    border-collapse: collapse;
+    border-color: #bbb;
+    margin: 2rem 0.5rem;
+}
+
 table th {
     padding: 1.0rem 1.0rem;
 }
@@ -7,8 +13,26 @@ table td {
     width: 20rem;
 }
 
+.table__caption {
+    margin: 0.5rem 0;
+}
+
 .table__title {
-    font-size: 2.0rem;
+    color: #0e1e25;
+    font-size: 1.8rem;
+}
+.table__header--pros {
+    /*color: #27ae60;*/
+    /*background: #01ad9f;*/
+    background: #26a69b;
+    color: white;
+    font-size: 1.4rem;
+}
+.table__header--cons {
+    /*color: #2980b9;*/
+    color: #f7f7f7;
+    background: #ff7675;
+    font-size: 1.4rem;
 }
 
 .table__body {
