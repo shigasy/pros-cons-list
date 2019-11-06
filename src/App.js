@@ -4,6 +4,7 @@ import './components/Table.css'
 import './components/Button.css'
 
 import AddButton from './components/AddButton'
+import AddTableButton from './components/AddTableButton'
 
 function App() {
   return (
@@ -16,8 +17,8 @@ function App() {
             <a className="App-description__button--how-to-use">使いかた</a>
           </div>
         </section>
-        <section className="content">
-          <div className="content__container">
+        <section className="contents">
+          <div className="contents__container">
             <table align="center" border={1} className="table">
               <caption className="table__caption">
                 <div className="table__title">
@@ -105,6 +106,8 @@ function App() {
               </tbody>
             </table>
           </div>
+          <AddTableButton />
+          <p></p>
         </section>
       </div>
   );
