@@ -25,16 +25,16 @@ function App() {
                 <th className="table__header--cons" colSpan="2">悪い点</th>
               </tr>
               <tr>
-                <td className="table_data_text">てすとてすとてすとてすと</td>
-                <td className="table_data_value"><span>★★★</span></td>
-                <td>てすおてすとてすとてｓつおてすおてすとてすとてｓつお</td>
-                <td><span>★★★</span></td>
+                <td className="table__data--text">てすとてすとてすとてすと</td>
+                <td className="table__data--value">1</td>
+                <td className="table__data--text">てすおてすとてすとてｓつおてすおてすとてすとてｓつお</td>
+                <td className="table__data--value">1</td>
               </tr>
               <tr>
-                <td>てすとてすとてすとてすと</td>
-                <td><span>★★★</span></td>
-                <td>てすおてすとてすとてｓつおてすおてすとてすとてｓつお</td>
-                <td><span>★★★</span></td>
+                <td className="table__data--text">てすとてすとてすとてすと</td>
+                <td className="table__data--value">1</td>
+                <td className="table__data--text">てすおてすとてすとてｓつおてすおてすとてすとてｓつお</td>
+                <td className="table__data--value">1</td>
               </tr>
               <tr>
                 <td colSpan="2">
@@ -50,25 +50,29 @@ function App() {
               <caption className="table__caption">
                 <p className="table__title">タイトル1</p>
               </caption>
-              <tbody>
-              <tr>
-                <th>良い点</th>
-                <th>悪い点</th>
+              <tbody className="table__body">
+              <tr className="table__header">
+                <th className="table__header--pros" colSpan="2">良い点</th>
+                <th className="table__header--cons" colSpan="2">悪い点</th>
               </tr>
               <tr>
-                <td>TD <span>★★★</span></td>
-                <td>TD <span>★★★</span></td>
+                <td className="table__data--text">てすとてすとてすとてすと</td>
+                <td className="table__data--value">1</td>
+                <td className="table__data--text">てすおてすとてすとてｓつおてすおてすとてすとてｓつお</td>
+                <td className="table__data--value">1</td>
               </tr>
               <tr>
-                <td>TD <span>★★★</span></td>
-                <td>TD <span>★★★</span></td>
+                <td className="table__data--text">てすとてすとてすとてすと</td>
+                <td className="table__data--value">1</td>
+                <td className="table__data--text">てすおてすとてすとてｓつおてすおてすとてすとてｓつお</td>
+                <td className="table__data--value">1</td>
               </tr>
               <tr>
-                <td>
-                  <div>＋</div>
+                <td colSpan="2">
+                  <button>＋</button>
                 </td>
-                <td>
-                  <div>＋</div>
+                <td colSpan="2">
+                  <button>＋</button>
                 </td>
               </tr>
               </tbody>
