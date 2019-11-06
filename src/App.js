@@ -2,7 +2,6 @@ import React from 'react';
 import './App.css';
 import './components/Table.css'
 import './components/Button.css'
-import './components/AddButton.css'
 
 import AddButton from './components/AddButton'
 
@@ -29,31 +28,31 @@ function App() {
                 <th className="table__header--cons" colSpan="2">悪い点</th>
               </tr>
               <tr>
-                <td className="table__data--text">てすとてすと</td>
+                <td className="table__data--text"><textarea className="table__data--textarea-pros" placeholder="良い点"></textarea></td>
                 <td className="table__data--value">1</td>
-                <td className="table__data--text">てすおてすとてすとてｓつおてすおてすとてすとてｓつお</td>
-                <td className="table__data--value">1</td>
-              </tr>
-              <tr>
-                <td className="table__data--text">てすとてすとてすとてすと</td>
-                <td className="table__data--value">1</td>
-                <td className="table__data--text">てすおてすとてすとてｓつおてすおてすとてすとてｓつお</td>
+                <td className="table__data--text"><textarea className="table__data--textarea-cons" placeholder="悪い点"></textarea></td>
                 <td className="table__data--value">1</td>
               </tr>
               <tr>
+                <td className="table__data--text"><textarea className="table__data--textarea-pros" placeholder="良い点"></textarea></td>
+                <td className="table__data--value">1</td>
+                <td className="table__data--text"><textarea className="table__data--textarea-cons" placeholder="悪い点"></textarea></td>
+                <td className="table__data--value">1</td>
+              </tr>
+              <tr>
                 <td colSpan="2">
-                  <AddButton cmpClassName="table__add-button--pros"/>
+                  <AddButton color="green"/>
                 </td>
                 <td colSpan="2">
-                  <AddButton cmpClassName="table__add-button--cons"/>e
+                  <AddButton color="red"/>
                 </td>
               </tr>
               <tr>
                 <td colSpan="2">
-                  <p><strong>2</strong></p>
+                  <p className="table__data--sum-value">10</p>
                 </td>
                 <td colSpan="2">
-                  <p><strong>2</strong></p>
+                  <p className="table__data--sum-value">10</p>
                 </td>
               </tr>
               </tbody>
@@ -68,23 +67,27 @@ function App() {
                 <th className="table__header--cons" colSpan="2">悪い点</th>
               </tr>
               <tr>
-                <td className="table__data--text">てすとてすとてすとてすと</td>
+                <td className="table__data--text">
+                  <textarea className="table__data--textarea-pros" placeholder="良い点"></textarea>
+                </td>
                 <td className="table__data--value">1</td>
-                <td className="table__data--text">てすおてすとてすとてｓつおてすおてすとてすとてｓつお</td>
+                <td className="table__data--text">
+                  <textarea className="table__data--textarea-cons" placeholder="悪い点"></textarea>
+                </td>
                 <td className="table__data--value">1</td>
               </tr>
               <tr>
-                <td className="table__data--text">てすとてすとてすとてすと</td>
+                <td className="table__data--text"><textarea className="table__data--textarea-pros" placeholder="良い点"></textarea></td>
                 <td className="table__data--value">1</td>
-                <td className="table__data--text">てすおてすとてすとてｓつおてすおてすとてすとてｓつお</td>
+                <td className="table__data--text"><textarea className="table__data--textarea-cons" placeholder="悪い点"></textarea></td>
                 <td className="table__data--value">1</td>
               </tr>
               <tr>
                 <td colSpan="2">
-                  <button>＋</button>
+                  <AddButton color="green"/>
                 </td>
                 <td colSpan="2">
-                  <button>＋</button>
+                  <AddButton color="red"/>
                 </td>
               </tr>
               <tr>

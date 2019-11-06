@@ -1,7 +1,8 @@
 import React from 'react'
+import './AddButton.css'
 
 const AddButton = (props) => (
-    <a className={props.cmpClassName}>＋</a>
+    <a className={props.color === "green" ? "table__add-button--pros" : "table__add-button--cons"}>＋</a>
 )
 
 export default AddButton
