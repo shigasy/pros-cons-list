@@ -37,12 +37,12 @@ table td {
 }
 
 .ef input[type='text']:focus {
-    border-bottom: 0.2rem solid #26a69b;
+    border-bottom: 0.2rem solid #45BBB7;
     outline: none; /* 縁取り */
 }
 
 .table__header--pros {
-    background: #26a69b;
+    background: #45BBB7;
     color: white;
     font-size: 1.4rem;
 }
@@ -70,7 +70,7 @@ table td {
     transition: .2s;
 }
 .table__data--textarea-pros:focus {
-    border: 0.2rem solid #26a69b;
+    border: 0.2rem solid #45BBB7;
     border-radius: 0.5rem;   /* 角丸 */
     outline: 0;
 }

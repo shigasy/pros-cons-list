@@ -1,7 +1,7 @@
 .table__add-button--pros {
-    border: solid 0.15rem #26a69b;
+    border: solid 0.15rem #45BBB7;
     border-radius: 0.3rem;
-    color: #26a69b;
+    color: #45BBB7;
     cursor: pointer;
     display: inline-block;
     font-size: 1.4rem;
@@ -11,7 +11,7 @@
 }
 
 .table__add-button--pros:hover {
-    background: #26a69b;
+    background: #45BBB7;
     color: white;
 }
 

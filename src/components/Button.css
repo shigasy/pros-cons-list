@@ -4,7 +4,7 @@ a {
 
 .App-description__button--sample {
     display: inline-block;
-    background-color: #26a69b;/*背景色*/
+    background-color: #45BBB7;/*背景色*/
     color: #FFF;/*文字色*/
     font-size: 1.6rem;/*文字サイズ*/
     font-weight: bold;
@@ -19,7 +19,7 @@ a {
 
 .App-description__button--how-to-use {
     display: inline-block;
-    background-color: #26a69b;/*背景色*/
+    background-color: #45BBB7;/*背景色*/
     color: #FFF;/*文字色*/
     font-size: 1.6rem;/*文字サイズ*/
     font-weight: bold;

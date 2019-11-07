@@ -1,17 +1,13 @@
-/*.contents__add--container {*/
-/*    margin: 10rem 0;*/
-/*}*/
-
 .contents__add--table {
-    color: #26a69b;
+    color: #45BBB7;
     cursor: pointer;
-    border: solid 0.2rem #26a69b;
+    border: solid 0.2rem #45BBB7;
     font-weight: bold;
     padding: 0.4rem 4rem;
     border-radius: 0.3rem;
     transition: .3s;
 }
 .contents__add--table:hover {
-    background: #26a69b;
+    background: #45BBB7;
     color: white;
 }
