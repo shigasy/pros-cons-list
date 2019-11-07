@@ -36,7 +36,9 @@ function App() {
   return (
       <div className="App">
         <section className="App-description">
-          <h2 className="App-description__title">良い点、悪い点リスト</h2>
+          <div className="App-description__title-section">
+            <img src="pros_cons_title_icon1200.png" className="App-description__title"></img>
+          </div>
           <div className="App-description__sub-content">
             <a className="App-description__button--sample">サンプル</a>
             <a onClick={openModal} className="App-description__button--how-to-use">使いかた</a>
@@ -74,15 +76,15 @@ function App() {
               </tr>
               <tr>
                 <td className="table__data--text"><textarea className="table__data--textarea-pros" placeholder="良い点"></textarea></td>
-                <td className="table__data--value">1</td>
+                <td className="table__data--value"><p><strong>☓</strong></p><hr></hr><p>1</p></td>
                 <td className="table__data--text"><textarea className="table__data--textarea-cons" placeholder="悪い点"></textarea></td>
-                <td className="table__data--value">1</td>
+                <td className="table__data--value"><p><strong>☓</strong></p><hr></hr><p>1</p></td>
               </tr>
               <tr>
                 <td className="table__data--text"><textarea className="table__data--textarea-pros" placeholder="良い点"></textarea></td>
-                <td className="table__data--value">1</td>
+                <td className="table__data--value"><p><strong>☓</strong></p><hr></hr><p>1</p></td>
                 <td className="table__data--text"><textarea className="table__data--textarea-cons" placeholder="悪い点"></textarea></td>
-                <td className="table__data--value">1</td>
+                <td className="table__data--value"><p><strong>☓</strong></p><hr></hr><p>1</p></td>
               </tr>
               <tr>
                 <td colSpan="2">

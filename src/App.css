@@ -1,6 +1,13 @@
 .App {
   text-align: center;
 }
+.App-description__title-section {
+  margin: 2.5rem;
+}
+
+.App-description__title {
+  width: 100%;
+}
 
 .content__container {
   display: block;
@@ -10,6 +17,10 @@
 
 }
 @media (min-width: 1024px) {
+  .App-description__title {
+    width: 20%;
+  }
+
   .contents__container {
     display: flex;
   }
