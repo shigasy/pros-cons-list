@@ -1,6 +1,7 @@
 import React from 'react'
 import './Table.css'
 import AddButton from "./AddButton";
+
 const Table = () => (
     <table align="center" className="table">
       <caption className="table__caption">
