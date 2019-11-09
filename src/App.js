@@ -13,7 +13,6 @@ function App() {
 
   const customStyles = {
     content : {
-      overflow: 'hidden',
       top                   : '50%',
       left                  : '50%',
       right                 : 'auto',
@@ -61,7 +60,7 @@ function App() {
         </section>
         <section className="contents">
           <div className="contents__container">
-            <table align="center" border={1} className="table">
+            <table align="center" className="table">
               <caption className="table__caption">
                 <div className="table__title">
                   <label className="ef">
@@ -69,11 +68,13 @@ function App() {
                   </label>
                 </div>
               </caption>
-              <tbody className="table__body">
-              <tr className="table__header">
+              <thead className="table__header">
+              <tr className="table__header-container">
                 <th className="table__header--pros" colSpan="2">良い点</th>
                 <th className="table__header--cons" colSpan="2">悪い点</th>
               </tr>
+              </thead>
+              <tbody className="table__body">
               <tr>
                 <td className="table__data--text"><textarea className="table__data--textarea-pros" placeholder="良い点"></textarea></td>
                 <td className="table__data--value"><p><strong>☓</strong></p><hr></hr><p>1</p></td>
