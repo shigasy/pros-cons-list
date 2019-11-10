@@ -3,7 +3,7 @@ import './Table.css'
 import AddButton from "./AddButton";
 
 function Table() {
-  const [tablePoint, setTablePoint] = useState({pros: [1, 2], cons: [1, 1, 1, 2]})
+  const [tablePoint, setTablePoint] = useState({pros: [1, 1], cons: [1, 1]})
 
   const switchProsNumber = (i) => {
     if (tablePoint.pros[i] === 3) {
