@@ -2,6 +2,10 @@ import React, {useState} from 'react'
 import './Table.css'
 import AddButton from "./AddButton";
 
+const hoge = () => {
+  alert("1")
+}
+
 function Table() {
   const [tablePoint, setTablePoint] = useState({pros: [1, 1], cons: [1, 1]})
 
@@ -30,12 +34,24 @@ function Table() {
     setTablePoint({pros: tablePoint.pros, cons: tablePoint.cons.concat(1)})
   }
 
+  const removeProsColumn = (i) => {
+    if (tablePoint.pros.length <= 1) return;
+    tablePoint.pros.splice(i, 1)
+    setTablePoint({pros: tablePoint.pros.concat(), cons: tablePoint.cons})
+  }
+
+  const removeConsColumn = (i) => {
+    if (tablePoint.cons.length <= 1) return;
+    tablePoint.cons.splice(i, 1)
+    setTablePoint({pros: tablePoint.pros, cons: tablePoint.cons.concat()})
+  }
+
   return (
       <table align="center" border={1} className="table">
         <caption className="table__caption">
           <div className="table__title">
             <label className="ef">
-              <input type="text" placeholder="タイトル1"/>
+              <input type="text" placeholder="タイトル" />
             </label>
           </div>
         </caption>
@@ -71,7 +87,7 @@ function Table() {
               table = [...table,
                 <td className="table__data--text"><textarea className="table__data--textarea-pros" placeholder="良い点"/>
                 </td>]
-              table = [...table, <td className="table__data--value"><p><strong>☓</strong></p>
+              table = [...table, <td className="table__data--value"><p onClick={() => removeProsColumn(i)}><strong>☓</strong></p>
                 <hr/>
                 <button onClick={() => switchProsNumber(i)}>{tablePoint.pros[i]}</button>
               </td>]
@@ -85,7 +101,7 @@ function Table() {
               table = [...table,
                 <td className="table__data--text"><textarea className="table__data--textarea-pros" placeholder="悪い点"/>
                 </td>]
-              table = [...table, <td className="table__data--value"><p><strong>☓</strong></p>
+              table = [...table, <td className="table__data--value"><p onClick={() => removeConsColumn(i)}><strong>☓</strong></p>
                 <hr/>
                 <button onClick={() => switchConsNumber(i)}>{tablePoint.cons[i]}</button>
               </td>]

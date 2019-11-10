@@ -33,7 +33,6 @@ function App() {
             <img src="pros_cons_title_icon1200.png" className="App-description__title"></img>
           </div>
           <div className="App-description__sub-content">
-            <a className="App-description__button--sample">サンプル</a>
             <a onClick={openModal} className="App-description__button--how-to-use">使いかた</a>
             <ReactModal modalIsOpen={modalIsOpen} closeModal={closeModal} />
           </div>
