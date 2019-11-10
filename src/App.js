@@ -10,6 +10,8 @@ import ReactModal from './components/ReactModal'
 
 function App() {
   const [modalIsOpen, setModalIsOpen] = useState(false)
+  const [tablePoint, setPoint] = useState(0)
+  const [tableSumPoint, setSumPoint] = useState(0)
 
   function openModal() {
     document.body.style.overflow = 'hidden'; // 背景のスクロール無効にするため
@@ -35,8 +37,7 @@ function App() {
         </section>
         <section className="contents">
           <div className="contents__container">
-            <Table/>
-            <Table/>
+            <Table setSumPoint={setSumPoint}/>
           </div>
           <AddTableButton/>
           <p></p>
