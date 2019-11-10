@@ -9,8 +9,15 @@ function switchNumber(e) {
 
 
 function Table() {
-  // const [tablePoint, setTablePoint] = useState({point: [{pros: [1]}, {cons: [1]}]})
   const [tablePoint, setTablePoint] = useState({pros: [1, 2], cons: [1, 1, 1, 2]})
+
+
+  const addProsColumn = () => {
+    setTablePoint({pros: tablePoint.pros.concat(1), cons: tablePoint.cons})
+  }
+  const addConsColumn = () => {
+    setTablePoint({pros: tablePoint.pros, cons: tablePoint.cons.concat(1)})
+  }
 
   return (
   <table align="center" border={1} className="table">
@@ -82,10 +89,10 @@ function Table() {
     </tr>
     <tr>
       <td colSpan="2">
-        <AddButton color="green"/>
+        <AddButton onClick={addProsColumn} color="green"/>
       </td>
       <td colSpan="2">
-        <AddButton color="red"/>
+        <AddButton onClick={addConsColumn} color="red"/>
       </td>
     </tr>
     <tr>
