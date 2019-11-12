@@ -99,7 +99,7 @@ function Table() {
             }
             if (tablePoint.cons.length > i) {
               table = [...table,
-                <td className="table__data--text"><textarea className="table__data--textarea-pros" placeholder="悪い点"/>
+                <td className="table__data--text"><textarea className="table__data--textarea-cons" placeholder="悪い点"/>
                 </td>]
               table = [...table, <td className="table__data--value"><p onClick={() => removeConsColumn(i)}><strong>☓</strong></p>
                 <hr/>
