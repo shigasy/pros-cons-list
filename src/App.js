@@ -30,7 +30,7 @@ function App() {
       <div className="App">
         <section className="App-description">
           <div className="App-description__title-section">
-            <img src="pros_cons_title_icon1200.png" className="App-description__title"></img>
+            <img src="pros_cons_title_icon1200.png" className="App-description__title" />
           </div>
           <div className="App-description__sub-content">
             <a onClick={openModal} className="App-description__button--how-to-use">使いかた</a>
@@ -44,7 +44,7 @@ function App() {
             })}
           </div>
           <AddTableButton onClick={addTable} />
-          <p></p>
+          <p />
         </section>
       </div>
   );
