@@ -7,6 +7,7 @@ import './components/Button.css'
 import AddTableButton from './components/AddTableButton'
 import Table from './components/Table'
 import ReactModal from './components/ReactModal'
+import Footer from "./components/Footer";
 
 function App() {
   const [modalIsOpen, setModalIsOpen] = useState(false)
@@ -46,6 +47,7 @@ function App() {
           <AddTableButton onClick={addTable} />
           <p />
         </section>
+        <Footer/>
       </div>
   );
 }
