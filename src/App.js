@@ -2,12 +2,12 @@ import React, {useState} from 'react';
 
 import './App.css';
 import './components/Table.css'
-import './components/Button.css'
 
 import AddTableButton from './components/AddTableButton'
 import Table from './components/Table'
 import ReactModal from './components/ReactModal'
 import Footer from "./components/Footer";
+import Button from "./components/Button";
 
 function App() {
   const [modalIsOpen, setModalIsOpen] = useState(false)
@@ -34,7 +34,7 @@ function App() {
             <img src="pros_cons_title_icon1200.png" className="App-description__title" />
           </div>
           <div className="App-description__sub-content">
-            <a onClick={openModal} className="App-description__button--how-to-use">使いかた</a>
+            <Button text="使いかた" clickMotion={openModal}/>
             <ReactModal modalIsOpen={modalIsOpen} closeModal={closeModal} />
           </div>
         </section>

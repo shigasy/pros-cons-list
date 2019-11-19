@@ -1,5 +1,7 @@
 import React from 'react'
 import Modal from "react-modal";
+import Button from "./Button"
+import "./ReactModal.css"
 
 const customStyles = {
   content : {
@@ -27,6 +29,9 @@ const ReactModal = (props) => (
         <li>洗い出した良い点、悪い点について重要だと思うものに評価値をつけていきます。</li>
       </ol>
       <p>選択肢の合計点を比較しましょう！</p>
+      <div className="modal__button--center">
+        <Button text="閉じる" clickMotion={props.closeModal}/>
+      </div>
     </Modal>
 )
 
