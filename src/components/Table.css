@@ -124,7 +124,6 @@ table tbody td {
     width: 1rem;
 }
 
-
 .close-parts {
     display: inline-block;
     width: 1.5rem;
@@ -135,6 +134,7 @@ table tbody td {
 }
 .close-parts span::before,
 .close-parts span::after {
+    background: #ff7675;
     display: block;
     content: "";
     position: absolute;
@@ -143,7 +143,6 @@ table tbody td {
     width: 84%;
     height: 16%;
     margin: -8% 0 0 -42%;
-    background: #ff7675;
 }
 .close-parts span::before {
     transform: rotate(-45deg);
@@ -163,6 +162,7 @@ table tbody td {
     border-radius: 50%;
     line-height: 2rem;
     text-align: center;
+    cursor: pointer;
 }
 .table__data--figure-cons {
     display: inline-block;
@@ -173,6 +173,7 @@ table tbody td {
     border-radius: 50%;
     line-height: 2rem;
     text-align: center;
+    cursor: pointer;
 }
 /* -------------------------------------------- */
 /* ▼タブレット用デザインとして付け足すデザイン */
