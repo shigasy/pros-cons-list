@@ -2,16 +2,12 @@ import React, {useState} from 'react'
 import './Table.css'
 import AddButton from "./AddButton";
 
-const hoge = () => {
-  alert("1")
-}
-
 function Table() {
-  const [tablePoint, setTablePoint] = useState({pros: [1, 1], cons: [1, 1]})
+  const [tablePoint, setTablePoint] = useState({pros: [0, 0], cons: [0, 0]})
 
   const switchProsNumber = (i) => {
     if (tablePoint.pros[i] === 3) {
-      tablePoint.pros[i] = 1
+      tablePoint.pros[i] = 0
     } else {
       tablePoint.pros[i] += 1
     }
@@ -28,10 +24,10 @@ function Table() {
   }
 
   const addProsColumn = () => {
-    setTablePoint({pros: tablePoint.pros.concat(1), cons: tablePoint.cons})
+    setTablePoint({pros: tablePoint.pros.concat(0), cons: tablePoint.cons})
   }
   const addConsColumn = () => {
-    setTablePoint({pros: tablePoint.pros, cons: tablePoint.cons.concat(1)})
+    setTablePoint({pros: tablePoint.pros, cons: tablePoint.cons.concat(0)})
   }
 
   const removeProsColumn = (i) => {
@@ -87,7 +83,9 @@ function Table() {
               table = [...table,
                 <td className="table__data--text"><textarea className="table__data--textarea-pros" placeholder="良い点"/>
                 </td>]
-              table = [...table, <td className="table__data--value"><p onClick={() => removeProsColumn(i)}><strong>☓</strong></p>
+              table = [...table, <td className="table__data--value"><div onClick={() => removeProsColumn(i)}>
+                <div className="close-parts"><span /></div>
+              </div>
                 <hr/>
                 <button onClick={() => switchProsNumber(i)}>{tablePoint.pros[i]}</button>
               </td>]
@@ -101,7 +99,9 @@ function Table() {
               table = [...table,
                 <td className="table__data--text"><textarea className="table__data--textarea-cons" placeholder="悪い点"/>
                 </td>]
-              table = [...table, <td className="table__data--value"><p onClick={() => removeConsColumn(i)}><strong>☓</strong></p>
+              table = [...table, <td className="table__data--value"><div onClick={() => removeConsColumn(i)}>
+                <div className="close-parts"><span /></div>
+              </div>
                 <hr/>
                 <button onClick={() => switchConsNumber(i)}>{tablePoint.cons[i]}</button>
               </td>]
