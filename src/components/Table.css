@@ -151,6 +151,29 @@ table tbody td {
 .close-parts span::after {
     transform: rotate(45deg);
 }
+.table__data {
+    position: absolute;
+}
+.table__data--figure-pros {
+    display: inline-block;
+    margin: 0.5rem;
+    width: 2rem;
+    height: 2rem;
+    border: solid 0.15rem #45BBB7;
+    border-radius: 50%;
+    line-height: 2rem;
+    text-align: center;
+}
+.table__data--figure-cons {
+    display: inline-block;
+    margin: 0.5rem;
+    width: 2rem;
+    height: 2rem;
+    border: solid 0.15rem #ff7675;
+    border-radius: 50%;
+    line-height: 2rem;
+    text-align: center;
+}
 /* -------------------------------------------- */
 /* ▼タブレット用デザインとして付け足すデザイン */
 /* -------------------------------------------- */

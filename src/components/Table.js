@@ -16,7 +16,7 @@ function Table() {
 
   const switchConsNumber = (i) => {
     if (tablePoint.cons[i] === 3) {
-      tablePoint.cons[i] = 1
+      tablePoint.cons[i] = 0
     } else {
       tablePoint.cons[i] += 1
     }
@@ -87,7 +87,7 @@ function Table() {
                 <div className="close-parts"><span /></div>
               </div>
                 <hr/>
-                <button onClick={() => switchProsNumber(i)}>{tablePoint.pros[i]}</button>
+                <div onClick={() => switchProsNumber(i)} className="table__data--figure-pros">{tablePoint.pros[i]}</div>
               </td>]
             } else {
               table = [...table, <td className="table__data--text"/>]
@@ -103,7 +103,7 @@ function Table() {
                 <div className="close-parts"><span /></div>
               </div>
                 <hr/>
-                <button onClick={() => switchConsNumber(i)}>{tablePoint.cons[i]}</button>
+                <div onClick={() => switchConsNumber(i)} className="table__data--figure-cons">{tablePoint.cons[i]}</div>
               </td>]
             } else {
               table = [...table, <td className="table__data--text"/>]
