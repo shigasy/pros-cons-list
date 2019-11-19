@@ -176,38 +176,3 @@ table tbody td {
     text-align: center;
     cursor: pointer;
 }
-/* -------------------------------------------- */
-/* ▼タブレット用デザインとして付け足すデザイン */
-/* -------------------------------------------- */
-@media (min-width: 768px) {
-
-}
-/* ------------------------------------ */
-/* ▼PC用デザインとして付け足すデザイン */
-/* ------------------------------------ */
-@media (min-width: 1024px) {
-    table {
-        /*margin: 5rem;*/
-        width: 100vm;
-    }
-
-    table th {
-        padding: 1.0rem 13.6rem;
-    }
-
-    table td {
-        padding: 0.4rem 13.6rem;
-    }
-
-    .table__title {
-        font-size: 2.0rem;
-    }
-
-    .table__header {
-        font-size: 1.4rem;
-    }
-    .table__body {
-        font-size: 1.2rem;
-    }
-
-}

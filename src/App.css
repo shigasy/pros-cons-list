@@ -12,16 +12,24 @@
 .content__container {
   display: block;
 }
+.contents__container {
+  display: flex; /* 横並び 均等 */
+  justify-content: space-evenly; /* センターに */
+  flex-wrap: wrap; /* 複数行折返し */
+}
 
 @media (min-width: 768px) {
-
+  .App {
+    text-align: center;
+    max-width: 110rem;
+    margin: 0 auto;
+  }
+  .App-description__title {
+    width: 40%;
+  }
 }
 @media (min-width: 1024px) {
   .App-description__title {
-    width: 20%;
-  }
-
-  .contents__container {
-    display: flex;
+    width: 35%;
   }
 }
