@@ -130,6 +130,7 @@ table tbody td {
     height: 1.5rem;
     position: relative;
     border: 1px solid rgba(255,118,117,.4);
+    border-radius: 10%;
     cursor: pointer;
 }
 .close-parts span::before,
