@@ -1,0 +1,24 @@
+a {
+    color: #0466d6;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: #0466d6;
+}
+.footer {
+    margin: 3rem 0;
+}
+.footer__img {
+    /*position: relative;*/
+    /*top: 50%;*/
+    /*text-align: center;*/
+    vertical-align: middle;
+    transform: translate(-12%, -12%);
+    width: 1.4rem;
+    height: 1.4rem;
+
+}
+.footer__text {
+    color: #8a7c7c;
+    font-size: 1.3rem;
+}
