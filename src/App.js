@@ -45,7 +45,6 @@ function App() {
             })}
           </div>
           <AddTableButton onClick={addTable} />
-          <p />
         </section>
         <Footer/>
       </div>
