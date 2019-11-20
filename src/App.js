@@ -31,7 +31,7 @@ function App() {
       <div className="App">
         <section className="App-description">
           <div className="App-description__title-section">
-            <img src="pros_cons_title_icon1200.png" alt="タイトル画像" className="App-description__title" />
+            <img src={"pros_cons_title_icon1200.png"} alt="タイトル画像" className="App-description__title" />
           </div>
           <div className="App-description__sub-content">
             <Button text="使いかた" clickMotion={openModal}/>
