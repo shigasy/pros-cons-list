@@ -5,7 +5,7 @@ a {
 a:hover {
     text-decoration: #0466d6;
 }
-.footer {
+.footer__container {
     margin: 3rem 0;
 }
 .footer__img {

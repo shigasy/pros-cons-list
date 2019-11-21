@@ -46,7 +46,9 @@ function App() {
           </div>
           <AddTableButton onClick={addTable} />
         </section>
-        <Footer/>
+        <section className="footer">
+          <Footer/>
+        </section>
       </div>
   );
 }

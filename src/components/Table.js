@@ -58,19 +58,6 @@ function Table() {
         </tr>
         </thead>
         <tbody className="table__body">
-        {/*<tr>*/}
-        {/*  <td className="table__data--text"><textarea className="table__data--textarea-pros" placeholder="良い点"></textarea>*/}
-        {/*  </td>*/}
-        {/*  <td className="table__data--value"><p><strong>☓</strong></p>*/}
-        {/*    <hr></hr>*/}
-        {/*    <button onClick={switchNumber}>1</button>*/}
-        {/*  </td>*/}
-        {/*  <td className="table__data--text"><textarea className="table__data--textarea-cons" placeholder="悪い点"></textarea>*/}
-        {/*  </td>*/}
-        {/*  <td className="table__data--value"><p><strong>☓</strong></p>*/}
-        {/*    <hr></hr>*/}
-        {/*    <p>1</p></td>*/}
-        {/*</tr>*/}
         {(() => {
           let maxArray = tablePoint.pros
           if (tablePoint.pros.length < tablePoint.cons.length) {
@@ -116,17 +103,6 @@ function Table() {
           return tag
         })()}
         <tr>
-          {/*<td className="table__data--text"><textarea className="table__data--textarea-pros" placeholder="良い点"></textarea>*/}
-          {/*</td>*/}
-          {/*<td className="table__data--value"><p><strong>☓</strong></p>*/}
-          {/*  <hr></hr>*/}
-          {/*  <button onClick={switchNumber}>1</button>*/}
-          {/*</td>*/}
-          {/*<td className="table__data--text"><textarea className="table__data--textarea-cons" placeholder="悪い点"></textarea>*/}
-          {/*</td>*/}
-          {/*<td className="table__data--value"><p><strong>☓</strong></p>*/}
-          {/*  <hr></hr>*/}
-          {/*  <p>1</p></td>*/}
         </tr>
         <tr>
           <td colSpan="2">
