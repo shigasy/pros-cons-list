@@ -2,6 +2,7 @@
   "name": "pros-cons-list",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://mypozi.github.io/pros-cons-list/",
   "dependencies": {
     "gh-pages": "^2.1.1",
     "react": "^16.11.0",
