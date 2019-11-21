@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/pros-cons-list/static/css/main.fe892c7c.chunk.css",
-    "main.js": "/pros-cons-list/static/js/main.5ba8a715.chunk.js",
-    "main.js.map": "/pros-cons-list/static/js/main.5ba8a715.chunk.js.map",
+    "main.js": "/pros-cons-list/static/js/main.d2ce43d1.chunk.js",
+    "main.js.map": "/pros-cons-list/static/js/main.d2ce43d1.chunk.js.map",
     "runtime-main.js": "/pros-cons-list/static/js/runtime-main.b60d2280.js",
     "runtime-main.js.map": "/pros-cons-list/static/js/runtime-main.b60d2280.js.map",
-    "static/js/2.68ba8041.chunk.js": "/pros-cons-list/static/js/2.68ba8041.chunk.js",
-    "static/js/2.68ba8041.chunk.js.map": "/pros-cons-list/static/js/2.68ba8041.chunk.js.map",
+    "static/js/2.ed83bc21.chunk.js": "/pros-cons-list/static/js/2.ed83bc21.chunk.js",
+    "static/js/2.ed83bc21.chunk.js.map": "/pros-cons-list/static/js/2.ed83bc21.chunk.js.map",
     "index.html": "/pros-cons-list/index.html",
-    "precache-manifest.3f60c550650f979beaca96d63992a0ab.js": "/pros-cons-list/precache-manifest.3f60c550650f979beaca96d63992a0ab.js",
+    "precache-manifest.27ef2f3b711c783e70216d18c5b6d003.js": "/pros-cons-list/precache-manifest.27ef2f3b711c783e70216d18c5b6d003.js",
     "service-worker.js": "/pros-cons-list/service-worker.js",
     "static/css/main.fe892c7c.chunk.css.map": "/pros-cons-list/static/css/main.fe892c7c.chunk.css.map"
   },
   "entrypoints": [
     "static/js/runtime-main.b60d2280.js",
-    "static/js/2.68ba8041.chunk.js",
+    "static/js/2.ed83bc21.chunk.js",
     "static/css/main.fe892c7c.chunk.css",
-    "static/js/main.5ba8a715.chunk.js"
+    "static/js/main.d2ce43d1.chunk.js"
   ]
 }
