@@ -3,9 +3,9 @@
   "name": "良い点悪い点リスト",
   "icons": [
     {
-      "src": "favicon.ico",
+      "src": "good_favicon_256.png",
       "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
+      "type": "image/png"
     },
     {
       "src": "good_favicon_256.png",
