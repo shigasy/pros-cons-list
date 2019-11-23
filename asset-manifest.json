@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/pros-cons-list/static/css/main.1d2dd6b1.chunk.css",
+    "main.css": "/pros-cons-list/static/css/main.f9dad5ba.chunk.css",
     "main.js": "/pros-cons-list/static/js/main.8668cc9d.chunk.js",
     "main.js.map": "/pros-cons-list/static/js/main.8668cc9d.chunk.js.map",
     "runtime-main.js": "/pros-cons-list/static/js/runtime-main.b60d2280.js",
@@ -8,14 +8,14 @@
     "static/js/2.ed83bc21.chunk.js": "/pros-cons-list/static/js/2.ed83bc21.chunk.js",
     "static/js/2.ed83bc21.chunk.js.map": "/pros-cons-list/static/js/2.ed83bc21.chunk.js.map",
     "index.html": "/pros-cons-list/index.html",
-    "precache-manifest.eb92c84ccd80cf838ac64a371e58daa1.js": "/pros-cons-list/precache-manifest.eb92c84ccd80cf838ac64a371e58daa1.js",
+    "precache-manifest.a482246d5d856b8674399d1951bbfead.js": "/pros-cons-list/precache-manifest.a482246d5d856b8674399d1951bbfead.js",
     "service-worker.js": "/pros-cons-list/service-worker.js",
-    "static/css/main.1d2dd6b1.chunk.css.map": "/pros-cons-list/static/css/main.1d2dd6b1.chunk.css.map"
+    "static/css/main.f9dad5ba.chunk.css.map": "/pros-cons-list/static/css/main.f9dad5ba.chunk.css.map"
   },
   "entrypoints": [
     "static/js/runtime-main.b60d2280.js",
     "static/js/2.ed83bc21.chunk.js",
-    "static/css/main.1d2dd6b1.chunk.css",
+    "static/css/main.f9dad5ba.chunk.css",
     "static/js/main.8668cc9d.chunk.js"
   ]
 }
